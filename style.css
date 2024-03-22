@@ -33,7 +33,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #333;
+    background-color: #0E1428;
     color: #fff;
     padding: 20px 20px;
     position: fixed;
@@ -52,7 +52,7 @@ nav {
 }
 
 .logo a {
-    color: #0E1428;
+    color: #fff;
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
@@ -73,12 +73,13 @@ nav {
 
 .nav-links a {
     color: #fff;
+    font-size:18px;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #f1c40f;
+    color: #FFF689;
 }
 
 .burger {

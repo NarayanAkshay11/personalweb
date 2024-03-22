@@ -249,13 +249,13 @@ footer {
     list-style: none;
     position: absolute;
     top: 80px;
-    right: 10px;
+    right: 5px;
     width: auto;
     background-color: #333;
     display: none;
     flex-direction: column;
     text-align: right;
-    padding: 20px;
+    padding: 1px;
 }
 @media (max-width: 768px) {
     .dropdown-menu.show-dropdown {

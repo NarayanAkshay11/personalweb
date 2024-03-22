@@ -114,12 +114,20 @@ nav {
 }
 
 .hero-content h1 {
-    font-size: 48px;
+    font-size: 50px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.hero-content h1::hover {
+    font-size: 50px;
+    text-align: left;
+    color: #FFF689;
     margin-bottom: 20px;
 }
 
 .hero-content p {
-    font-size: 24px;
+    font-size: 30px;
+    text-align: left;
     margin-bottom: 40px;
 }
 

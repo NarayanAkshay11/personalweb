@@ -37,12 +37,11 @@ header {
     color: #fff;
     padding: 20px;
     position: center;
-    display: flex;
     width: 100%;
     /*z-index: 1;*/
     margin-top: 20px;
     margin-left: 10px; /* Left margin */
-    margin-right: 10px; /* Right margin */
+    margin-right: 30px; /* Right margin */
     border-radius: 10px; /* Curved edges */
 }
 

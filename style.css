@@ -103,6 +103,7 @@ nav {
 /* Hero section styles */
 .hero {
     background-image: url('ntusg_cover.jpg');
+    filter:brightness(0.5);
     background-size: cover;
     background-position: center;
     height: 100vh;

@@ -1,6 +1,5 @@
-// Burger menu toggle
 document.addEventListener('DOMContentLoaded', function() {
-    const burger = document.querySelector('.burger div');
+    const burger = document.querySelector('.burger');
     const dropdownMenu = document.querySelector('.dropdown-menu');
 
     burger.addEventListener('click', function() {

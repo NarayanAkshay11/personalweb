@@ -235,29 +235,50 @@ footer {
     text-align: center;
     padding: 20px;
 }
+.dropdown-menu {
+    list-style: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    display: none; /* Initially hide the dropdown menu */
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
 
-/* Responsive styles */
+.dropdown-menu li {
+    margin: 10px 0;
+}
+
+.dropdown-menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+    color: #f1c40f;
+}
+
+/* Responsive styles for the dropdown menu */
 @media (max-width: 768px) {
     .nav-links {
         display: none;
-        position: absolute;
-        top: 80px;
-        left: 0;
-        width: 100%;
-        background-color: #333;
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .nav-links li {
-        margin: 10px 0;
     }
 
     .burger {
         display: block;
     }
 
+    .dropdown-menu {
+        display: none; /* Initially hide the dropdown menu */
+    }
+
+    .show-dropdown {
+        display: flex; /* Show the dropdown menu when the class is added */
+    }
     .about-content,
     .about-image {
         flex: 1 1 100%;
@@ -268,7 +289,6 @@ footer {
         text-align: center;
     }
 }
-
 @media (max-width: 480px) {
     .hero-content h1 {
         font-size: 36px;

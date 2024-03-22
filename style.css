@@ -86,6 +86,12 @@ nav {
     cursor: pointer;
 }
 
+@media (min-width: 769px) {
+    .burger {
+        display: block; /* Hide burger menu on larger screens */
+    }
+}
+
 .burger div {
     width: 25px;
     height: 3px;
@@ -246,10 +252,15 @@ footer {
     left: 0;
     width: 100%;
     background-color: #333;
-    
+    display: none;
     flex-direction: column;
     text-align: center;
     padding: 20px;
+}
+@media (max-width: 768px) {
+    .dropdown-menu.show-dropdown {
+        display: flex; /* Display dropdown menu when show-dropdown class is added */
+    }
 }
 
 .dropdown-menu li {

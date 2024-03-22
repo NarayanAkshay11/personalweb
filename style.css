@@ -35,10 +35,10 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    
+    padding:20;
     position: center;
-    width: 100%;
-    /*z-index: 1;*/
+    width: calc(100% - 40px);
+    z-index: 1;
     margin-top: 20px;
     margin-left: 10px; /* Left margin */
     margin-right: 30px; /* Right margin */

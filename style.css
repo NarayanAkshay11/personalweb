@@ -249,12 +249,12 @@ footer {
     list-style: none;
     position: absolute;
     top: 80px;
-    left: 0;
-    width: 100%;
+    right: 10px;
+    width: auto;
     background-color: #333;
     display: none;
     flex-direction: column;
-    text-align: center;
+    text-align: right;
     padding: 20px;
 }
 @media (max-width: 768px) {

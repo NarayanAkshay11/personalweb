@@ -3,15 +3,12 @@ const burger = document.querySelector('.burger div');
 const navLinks = document.querySelector('.nav-links');
 const navLinksLi = document.querySelectorAll('.nav-links li');
 
-burger.addEventListener('click', () => {
-    navLinks.classList.toggle('show');
-    burger.classList.toggle('toggle');
-});
+document.addEventListener('DOMContentLoaded', function() {
+    const burger = document.querySelector('.burger div');
+    const dropdownMenu = document.querySelector('.dropdown-menu');
 
-navLinksLi.forEach((link) => {
-    link.addEventListener('click', () => {
-        navLinks.classList.remove('show');
-        burger.classList.remove('toggle');
+    burger.addEventListener('click', function() {
+        dropdownMenu.classList.toggle('show-dropdown');
     });
 });
 

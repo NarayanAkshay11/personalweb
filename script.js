@@ -1,5 +1,5 @@
 // Burger menu toggle
-const burger = document.querySelector('.burger');
+const burger = document.querySelector('.burger div');
 const navLinks = document.querySelector('.nav-links');
 const navLinksLi = document.querySelectorAll('.nav-links li');
 

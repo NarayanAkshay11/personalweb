@@ -110,7 +110,7 @@ nav {
 
 /* Hero section styles */
 .hero {
-    background-image: url('Pic.png');
+    background-image: url('back.png');
     background-size: cover;
     background-position: center;
     height: 100vh;

@@ -8,7 +8,7 @@ document.body.appendChild(renderer.domElement);
 // Load OBJ file
 const loader = new THREE.OBJLoader();
 loader.load(
-  'your-model.obj',
+  'ImageToStl.com_7.obj',
   function (object) {
     scene.add(object);
   },

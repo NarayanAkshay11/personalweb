@@ -36,9 +36,9 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px;
-    position: fixed;
+    position: center;
     width: 100%;
-    z-index: 1;
+    /*z-index: 1;*/
     margin-top: 20px;
     margin-left: 20px; /* Left margin */
     margin-right: 20px; /* Right margin */

@@ -19,16 +19,18 @@ body {
 
 .btn {
     display: inline-block;
-    background-color: #333;
+    background-color: #0E1428;
     color: #fff;
     text-decoration: none;
+    font-size:18px;
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #555;
+    background-color: #D0CFEC;
+    
 }
 
 /* Header styles */
@@ -56,10 +58,18 @@ nav {
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 .logo span {
     color: #FFF689;
+    transition: background-color 0.3s ease;
+}
+.logo a:hover{
+    color: #FFF689;
+}
+.logo span :hover{
+    color:#fff;
 }
 
 .nav-links {
@@ -116,12 +126,12 @@ nav {
 
 .hero-content h1 {
     font-size: 50px;
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
 }
 .hero-content h1: hover {
     font-size: 50px;
-    text-align: left;
+    text-align: center;
     color: #FFF689;
     margin-bottom: 20px;
 }

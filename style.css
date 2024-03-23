@@ -169,8 +169,8 @@ nav {
 }
 
 .about-image img {
-    max-width: 50%;
-    max-height:50%;
+    max-width: 300px;
+    max-height: 300px;
     border-radius: 5px;
     display: block; /* Ensure the image takes up the available space */
 }

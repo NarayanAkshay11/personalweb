@@ -161,6 +161,11 @@ nav {
     font-size: 36px;
     margin-bottom: 20px;
 }
+.about-content p{
+    font-size: 26px;
+    text-align: left;
+    margin-right:400px;
+}
 
 .about-image {
     text-align: center;

@@ -141,16 +141,19 @@ nav {
     margin-bottom: 40px;
 }
 
-/* About section styles */
 .about {
     text-align: center;
     padding: 80px 0;
+    display: flex; /* Add flex display */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
 }
 
 .about-content {
-    font-size:26px;
+    font-size: 26px;
     flex: 1;
     margin-bottom: 20px;
+    text-align: left; /* Align text to the left */
 }
 
 .about-content h2 {
@@ -161,11 +164,13 @@ nav {
 .about-image {
     text-align: center;
     margin-left: 2rem;
+    flex: 1; /* Occupy remaining space */
 }
 
 .about-image img {
     max-width: 100%;
     border-radius: 5px;
+    display: block; /* Ensure the image takes up the available space */
 }
 
 /* Projects section styles */

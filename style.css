@@ -144,36 +144,33 @@ nav {
 .about {
     text-align: center;
     padding: 80px 0;
-}
-
-.about-content,
-.about-image {
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
 }
 
 .about-content {
-    width: calc(50% - 1rem); /* Half width minus margin */
-    margin-right: 1rem;
-}
-
-.about-image {
-    width: calc(50% - 1rem); /* Half width minus margin */
-    margin-left: 1rem;
+    flex: 1; /* Occupy available space */
+    max-width: 50%; /* Limit content width */
+    text-align: left;
 }
 
 .about-content h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    text-align: left;
+}
+
+.about-image {
+    flex: 1; /* Occupy available space */
+    max-width: 50%; /* Limit image width */
+    margin-top: 20px; /* Add some space between content and image */
 }
 
 .about-image img {
     max-width: 100%;
     border-radius: 5px;
 }
-
-
 /* Projects section styles */
 .projects {
     padding: 80px 20px;

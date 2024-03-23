@@ -200,16 +200,16 @@ nav {
 }
 
 .project-details {
-    padding: 20px;
+    padding: 24px;
 }
 
 .project-details h3 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 10px;
 }
 
 .project-details p {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 /* Contact section styles */

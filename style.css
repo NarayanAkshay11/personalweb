@@ -170,7 +170,7 @@ nav {
 
 /* Projects section styles */
 .projects {
-    padding: 80px 0;
+    padding: 80px 20px;
     background-color: #f4f4f4;
 }
 
@@ -183,12 +183,13 @@ nav {
 .project-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 40px 40px;
     gap: 40px;
 }
 
 .project-card {
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }

@@ -29,7 +29,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #D0CFEC;
+    background-color: #ABD2FA;
     color: #0B006E;
     
 }
@@ -88,7 +88,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #FFF689;
+    color: #FC7753;
 }
 
 .burger {

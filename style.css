@@ -38,7 +38,7 @@ body {
 header {
     background-color: #0E1428;
     color: #fff;
-    padding: 20px 20px;
+    padding: 50px 50px;
     position: fixed;
     width: calc(100% - 20px);
     z-index: 1;

@@ -57,13 +57,15 @@ nav {
 .logo a {
     color: #fff;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 19px;
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
 
 .logo span {
     color: #FFF689;
+    font-size: 24px;
+    font-weight: bold;
     transition: background-color 0.3s ease;
 }
 .logo a:hover{
@@ -112,7 +114,7 @@ nav {
 
 /* Hero section styles */
 .hero {
-    background-image: url('backg.png');
+    background-image: url('background.png');
     background-size: cover;
     background-position: center;
     height: 100vh;

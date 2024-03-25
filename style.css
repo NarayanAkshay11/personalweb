@@ -154,7 +154,7 @@ nav {
 
 .about-content {
     flex: 1; /* Occupy available space */
-    max-width: 50%; /* Limit content width */
+    max-width: 80%; /* Limit content width */
     text-align: left;
 }
 

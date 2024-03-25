@@ -38,9 +38,9 @@ body {
 header {
     background-color: #0E1428;
     color: #fff;
-    padding: 50px 50px;
+    padding: 20px 20px;
     position: fixed;
-    width: calc(100% - 20px);
+    width: calc(100% - 50px);
     z-index: 1;
     margin-top: 20px;
     margin-left: 10px; /* Left margin */

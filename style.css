@@ -159,7 +159,9 @@ nav {
     font-size: 36px;
     margin-bottom: 20px;
 }
-
+.about-content p{
+    margin-botton:10px;
+}
 .about-image {
     text-align: center;
     margin-left: 2rem;

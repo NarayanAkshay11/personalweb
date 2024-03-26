@@ -218,6 +218,9 @@ nav {
     margin-bottom: 24px;
     font-size:24px;
 }
+.project-details ul{
+    margin-left:20px;
+}
 
 /* Contact section styles */
 .contact {
